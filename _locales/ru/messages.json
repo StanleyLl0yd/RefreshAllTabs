@@ -1,0 +1,77 @@
+{
+  "appName": {
+    "message": "Обновление вкладок"
+  },
+  "appDescription": {
+    "message": "Обновляет вкладки браузера по клику, горячей клавишей или по таймеру."
+  },
+  "actionTitle": {
+    "message": "Обновить вкладки"
+  },
+  "commandDescription": {
+    "message": "Обновить вкладки"
+  },
+  "ctxEnableAuto": {
+    "message": "Включить автообновление"
+  },
+  "ctxDisableAuto": {
+    "message": "Выключить автообновление"
+  },
+  "ctxOpenOptions": {
+    "message": "Открыть настройки…"
+  },
+  "optionsTitle": {
+    "message": "Обновление вкладок - настройки"
+  },
+  "optionsHeader": {
+    "message": "Настройки"
+  },
+  "optAutoRefreshLabel": {
+    "message": "Включить автообновление вкладок"
+  },
+  "optIntervalLabel": {
+    "message": "Интервал автообновления (минут):"
+  },
+  "optModeLegend": {
+    "message": "Режим обновления"
+  },
+  "optModeAllTabs": {
+    "message": "Обновить все вкладки"
+  },
+  "optModeCurrentWindow": {
+    "message": "Только текущее окно"
+  },
+  "optModeAllExceptCurrent": {
+    "message": "Все вкладки, кроме текущей"
+  },
+  "optModeCurrentTab": {
+    "message": "Только текущую вкладку"
+  },
+  "optHotkeyNote": {
+    "message": "Горячая клавиша по умолчанию: Ctrl+Shift+Z (можно изменить в chrome://extensions/shortcuts)."
+  },
+  "optSaveButton": {
+    "message": "Сохранить"
+  },
+  "optSavedStatus": {
+    "message": "Сохранено"
+  },
+  "optStorageError": {
+    "message": "Не удалось прочитать или сохранить настройки"
+  },
+  "optExcludeLegend": {
+    "message": "Исключения по сайтам"
+  },
+  "optExcludeLabel": {
+    "message": "По одному домену или адресу сайта на строку (можно через запятую):"
+  },
+  "optExcludeHint": {
+    "message": "Исключения действуют во всех четырёх режимах обновления, включая поддомены."
+  },
+  "optExcludeInvalid": {
+    "message": "Неверный домен или адрес сайта:"
+  },
+  "optExcludeLimit": {
+    "message": "Слишком много исключений (максимум 100 доменов, 4096 символов)."
+  }
+}

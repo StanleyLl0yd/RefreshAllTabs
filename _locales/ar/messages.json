@@ -1,0 +1,77 @@
+{
+  "appName": {
+    "message": "تحديث علامات التبويب"
+  },
+  "appDescription": {
+    "message": "يحدّث علامات تبويب المتصفح بنقرة واحدة أو اختصار لوحة المفاتيح أو مؤقّت تلقائي."
+  },
+  "actionTitle": {
+    "message": "تحديث علامات التبويب"
+  },
+  "commandDescription": {
+    "message": "تحديث علامات التبويب"
+  },
+  "ctxEnableAuto": {
+    "message": "تفعيل التحديث التلقائي"
+  },
+  "ctxDisableAuto": {
+    "message": "إيقاف التحديث التلقائي"
+  },
+  "ctxOpenOptions": {
+    "message": "فتح الإعدادات…"
+  },
+  "optionsTitle": {
+    "message": "تحديث علامات التبويب — الإعدادات"
+  },
+  "optionsHeader": {
+    "message": "الإعدادات"
+  },
+  "optAutoRefreshLabel": {
+    "message": "تفعيل التحديث التلقائي لعلامات التبويب"
+  },
+  "optIntervalLabel": {
+    "message": "فاصل التحديث التلقائي (بالدقائق):"
+  },
+  "optModeLegend": {
+    "message": "وضع التحديث"
+  },
+  "optModeAllTabs": {
+    "message": "تحديث كل علامات التبويب"
+  },
+  "optModeCurrentWindow": {
+    "message": "النافذة الحالية فقط"
+  },
+  "optModeAllExceptCurrent": {
+    "message": "كل العلامات ما عدا الحالية"
+  },
+  "optModeCurrentTab": {
+    "message": "العلامة الحالية فقط"
+  },
+  "optHotkeyNote": {
+    "message": "اختصار لوحة المفاتيح الافتراضي: Ctrl+Shift+Z (يمكن تغييره في chrome://extensions/shortcuts)."
+  },
+  "optSaveButton": {
+    "message": "حفظ"
+  },
+  "optSavedStatus": {
+    "message": "تم الحفظ"
+  },
+  "optStorageError": {
+    "message": "تعذر قراءة الإعدادات أو حفظها"
+  },
+  "optExcludeLegend": {
+    "message": "المواقع المستثناة"
+  },
+  "optExcludeLabel": {
+    "message": "نطاق واحد أو عنوان موقع في كل سطر (أو افصل بينها بفواصل):"
+  },
+  "optExcludeHint": {
+    "message": "تُطبَّق الاستثناءات في أوضاع التحديث الأربعة جميعها، وتشمل النطاقات الفرعية أيضًا."
+  },
+  "optExcludeInvalid": {
+    "message": "نطاق أو عنوان موقع غير صالح:"
+  },
+  "optExcludeLimit": {
+    "message": "عدد كبير جدًا من الاستثناءات (الحد الأقصى 100 نطاق و4096 حرفًا)."
+  }
+}

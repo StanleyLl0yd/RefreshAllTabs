@@ -1,0 +1,77 @@
+{
+  "appName": {
+    "message": "刷新标签页"
+  },
+  "appDescription": {
+    "message": "通过点击、快捷键或自动定时器刷新浏览器标签页。"
+  },
+  "actionTitle": {
+    "message": "刷新标签页"
+  },
+  "commandDescription": {
+    "message": "刷新标签页"
+  },
+  "ctxEnableAuto": {
+    "message": "启用自动刷新"
+  },
+  "ctxDisableAuto": {
+    "message": "禁用自动刷新"
+  },
+  "ctxOpenOptions": {
+    "message": "打开设置…"
+  },
+  "optionsTitle": {
+    "message": "刷新标签页 — 设置"
+  },
+  "optionsHeader": {
+    "message": "设置"
+  },
+  "optAutoRefreshLabel": {
+    "message": "启用标签页自动刷新"
+  },
+  "optIntervalLabel": {
+    "message": "自动刷新间隔（分钟）："
+  },
+  "optModeLegend": {
+    "message": "刷新模式"
+  },
+  "optModeAllTabs": {
+    "message": "刷新所有标签页"
+  },
+  "optModeCurrentWindow": {
+    "message": "仅当前窗口"
+  },
+  "optModeAllExceptCurrent": {
+    "message": "除当前标签页外全部刷新"
+  },
+  "optModeCurrentTab": {
+    "message": "仅当前标签页"
+  },
+  "optHotkeyNote": {
+    "message": "默认快捷键：Ctrl+Shift+Z（可在 chrome://extensions/shortcuts 中修改）。"
+  },
+  "optSaveButton": {
+    "message": "保存"
+  },
+  "optSavedStatus": {
+    "message": "已保存"
+  },
+  "optStorageError": {
+    "message": "无法读取或保存设置"
+  },
+  "optExcludeLegend": {
+    "message": "排除的网站"
+  },
+  "optExcludeLabel": {
+    "message": "每行填写一个域名或网站地址（也可用逗号分隔）："
+  },
+  "optExcludeHint": {
+    "message": "排除规则适用于全部四种刷新模式，子域名也会被排除。"
+  },
+  "optExcludeInvalid": {
+    "message": "无效的域名或网站地址："
+  },
+  "optExcludeLimit": {
+    "message": "排除项过多（最多 100 个域名、4096 个字符）。"
+  }
+}

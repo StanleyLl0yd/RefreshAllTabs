@@ -1,0 +1,77 @@
+{
+  "appName": {
+    "message": "Opdater faner"
+  },
+  "appDescription": {
+    "message": "Opdaterer browserfaner med et klik, tastaturgenvej eller automatisk timer."
+  },
+  "actionTitle": {
+    "message": "Opdater faner"
+  },
+  "commandDescription": {
+    "message": "Opdater faner"
+  },
+  "ctxEnableAuto": {
+    "message": "Aktivér automatisk opdatering"
+  },
+  "ctxDisableAuto": {
+    "message": "Deaktivér automatisk opdatering"
+  },
+  "ctxOpenOptions": {
+    "message": "Åbn indstillinger…"
+  },
+  "optionsTitle": {
+    "message": "Opdater faner — indstillinger"
+  },
+  "optionsHeader": {
+    "message": "Indstillinger"
+  },
+  "optAutoRefreshLabel": {
+    "message": "Aktivér automatisk opdatering af faner"
+  },
+  "optIntervalLabel": {
+    "message": "Interval for automatisk opdatering (minutter):"
+  },
+  "optModeLegend": {
+    "message": "Opdateringstilstand"
+  },
+  "optModeAllTabs": {
+    "message": "Opdater alle faner"
+  },
+  "optModeCurrentWindow": {
+    "message": "Kun aktuelt vindue"
+  },
+  "optModeAllExceptCurrent": {
+    "message": "Alle faner undtagen den aktuelle"
+  },
+  "optModeCurrentTab": {
+    "message": "Kun den aktuelle fane"
+  },
+  "optHotkeyNote": {
+    "message": "Standardgenvej: Ctrl+Shift+Z (kan ændres i chrome://extensions/shortcuts)."
+  },
+  "optSaveButton": {
+    "message": "Gem"
+  },
+  "optSavedStatus": {
+    "message": "Gemt"
+  },
+  "optStorageError": {
+    "message": "Kunne ikke læse eller gemme indstillinger"
+  },
+  "optExcludeLegend": {
+    "message": "Udelukkede websteder"
+  },
+  "optExcludeLabel": {
+    "message": "Ét domæne eller en webadresse pr. linje (eller adskilt med kommaer):"
+  },
+  "optExcludeHint": {
+    "message": "Undtagelser gælder i alle fire opdateringstilstande. Underdomæner udelukkes også."
+  },
+  "optExcludeInvalid": {
+    "message": "Ugyldigt domæne eller webadresse:"
+  },
+  "optExcludeLimit": {
+    "message": "For mange undtagelser (maks. 100 domæner og 4096 tegn)."
+  }
+}

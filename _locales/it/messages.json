@@ -1,0 +1,77 @@
+{
+  "appName": {
+    "message": "Aggiorna schede"
+  },
+  "appDescription": {
+    "message": "Aggiorna le schede del browser con clic, scorciatoia da tastiera o timer automatico."
+  },
+  "actionTitle": {
+    "message": "Aggiorna schede"
+  },
+  "commandDescription": {
+    "message": "Aggiorna schede"
+  },
+  "ctxEnableAuto": {
+    "message": "Attiva aggiornamento automatico"
+  },
+  "ctxDisableAuto": {
+    "message": "Disattiva aggiornamento automatico"
+  },
+  "ctxOpenOptions": {
+    "message": "Apri impostazioni…"
+  },
+  "optionsTitle": {
+    "message": "Aggiorna schede — impostazioni"
+  },
+  "optionsHeader": {
+    "message": "Impostazioni"
+  },
+  "optAutoRefreshLabel": {
+    "message": "Attiva aggiornamento automatico delle schede"
+  },
+  "optIntervalLabel": {
+    "message": "Intervallo aggiornamento automatico (minuti):"
+  },
+  "optModeLegend": {
+    "message": "Modalità di aggiornamento"
+  },
+  "optModeAllTabs": {
+    "message": "Tutte le schede"
+  },
+  "optModeCurrentWindow": {
+    "message": "Solo finestra corrente"
+  },
+  "optModeAllExceptCurrent": {
+    "message": "Tutte tranne la scheda corrente"
+  },
+  "optModeCurrentTab": {
+    "message": "Solo scheda corrente"
+  },
+  "optHotkeyNote": {
+    "message": "Scorciatoia predefinita: Ctrl+Shift+Z (modificabile in chrome://extensions/shortcuts)."
+  },
+  "optSaveButton": {
+    "message": "Salva"
+  },
+  "optSavedStatus": {
+    "message": "Salvato"
+  },
+  "optStorageError": {
+    "message": "Impossibile leggere o salvare le impostazioni"
+  },
+  "optExcludeLegend": {
+    "message": "Siti esclusi"
+  },
+  "optExcludeLabel": {
+    "message": "Un dominio o URL per riga (oppure separati da virgole):"
+  },
+  "optExcludeHint": {
+    "message": "Le esclusioni si applicano a tutte e quattro le modalità di aggiornamento, inclusi i sottodomini."
+  },
+  "optExcludeInvalid": {
+    "message": "Dominio o URL non valido:"
+  },
+  "optExcludeLimit": {
+    "message": "Troppe esclusioni (massimo 100 domini e 4096 caratteri)."
+  }
+}

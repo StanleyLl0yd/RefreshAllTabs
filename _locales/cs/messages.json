@@ -1,0 +1,77 @@
+{
+  "appName": {
+    "message": "Obnovování karet"
+  },
+  "appDescription": {
+    "message": "Obnovuje karty prohlížeče kliknutím, klávesovou zkratkou nebo automatickým časovačem."
+  },
+  "actionTitle": {
+    "message": "Obnovit karty"
+  },
+  "commandDescription": {
+    "message": "Obnovit karty"
+  },
+  "ctxEnableAuto": {
+    "message": "Zapnout automatické obnovování"
+  },
+  "ctxDisableAuto": {
+    "message": "Vypnout automatické obnovování"
+  },
+  "ctxOpenOptions": {
+    "message": "Otevřít nastavení…"
+  },
+  "optionsTitle": {
+    "message": "Obnovování karet — nastavení"
+  },
+  "optionsHeader": {
+    "message": "Nastavení"
+  },
+  "optAutoRefreshLabel": {
+    "message": "Zapnout automatické obnovování karet"
+  },
+  "optIntervalLabel": {
+    "message": "Interval automatického obnovování (minuty):"
+  },
+  "optModeLegend": {
+    "message": "Režim obnovování"
+  },
+  "optModeAllTabs": {
+    "message": "Obnovit všechny karty"
+  },
+  "optModeCurrentWindow": {
+    "message": "Jen aktuální okno"
+  },
+  "optModeAllExceptCurrent": {
+    "message": "Všechny karty kromě aktuální"
+  },
+  "optModeCurrentTab": {
+    "message": "Jen aktuální karta"
+  },
+  "optHotkeyNote": {
+    "message": "Výchozí klávesová zkratka: Ctrl+Shift+Z (lze změnit v chrome://extensions/shortcuts)."
+  },
+  "optSaveButton": {
+    "message": "Uložit"
+  },
+  "optSavedStatus": {
+    "message": "Uloženo"
+  },
+  "optStorageError": {
+    "message": "Nastavení nelze načíst ani uložit"
+  },
+  "optExcludeLegend": {
+    "message": "Vyloučené weby"
+  },
+  "optExcludeLabel": {
+    "message": "Jedna doména nebo adresa webu na řádek (nebo oddělené čárkami):"
+  },
+  "optExcludeHint": {
+    "message": "Výjimky platí ve všech čtyřech režimech obnovení. Zahrnují i subdomény."
+  },
+  "optExcludeInvalid": {
+    "message": "Neplatná doména nebo adresa webu:"
+  },
+  "optExcludeLimit": {
+    "message": "Příliš mnoho výjimek (maximálně 100 domén a 4096 znaků)."
+  }
+}

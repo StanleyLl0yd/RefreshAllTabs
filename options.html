@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Refresh All Tabs - Settings</title>
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      margin: 16px;
+    }
+    label {
+      display: block;
+      margin: 6px 0;
+    }
+    input[type="number"] {
+      width: 80px;
+    }
+    textarea {
+      display: block;
+      box-sizing: border-box;
+      width: min(100%, 480px);
+      margin-top: 6px;
+      font: inherit;
+    }
+    fieldset {
+      margin-top: 12px;
+      padding: 8px 12px;
+    }
+    legend {
+      font-weight: 600;
+      padding: 0 4px;
+    }
+    .note {
+      font-size: 0.9em;
+      color: #555;
+      margin-top: 8px;
+      display: inline-block;
+    }
+    button {
+      margin-top: 12px;
+      padding: 6px 12px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>__MSG_optionsHeader__</h1>
+
+  <form id="options-form">
+    <label>
+      <input type="checkbox" id="auto-refresh-enabled">
+      __MSG_optAutoRefreshLabel__
+    </label>
+
+    <label>
+      __MSG_optIntervalLabel__
+      <input type="number" id="auto-refresh-interval" min="1" max="1440" step="1" value="5" required>
+    </label>
+
+    <fieldset>
+      <legend>__MSG_optModeLegend__</legend>
+
+      <label>
+        <input type="radio" name="refresh-mode" value="all-tabs" checked>
+        __MSG_optModeAllTabs__
+      </label>
+
+      <label>
+        <input type="radio" name="refresh-mode" value="current-window">
+        __MSG_optModeCurrentWindow__
+      </label>
+
+      <label>
+        <input type="radio" name="refresh-mode" value="all-except-current">
+        __MSG_optModeAllExceptCurrent__
+      </label>
+
+      <label>
+        <input type="radio" name="refresh-mode" value="current-tab">
+        __MSG_optModeCurrentTab__
+      </label>
+    </fieldset>
+
+    <fieldset>
+      <legend>__MSG_optExcludeLegend__</legend>
+      <label for="excluded-domains">__MSG_optExcludeLabel__</label>
+      <textarea id="excluded-domains" rows="5" maxlength="4096" spellcheck="false" placeholder="chatgpt.com&#10;example.org"></textarea>
+      <div class="note">__MSG_optExcludeHint__</div>
+    </fieldset>
+
+    <div class="note">
+      __MSG_optHotkeyNote__
+    </div>
+
+    <div>
+      <button type="submit" id="save-button">__MSG_optSaveButton__</button>
+      <span id="status" class="note" role="status" aria-live="polite"></span>
+    </div>
+  </form>
+
+  <script src="exclusions.js"></script>
+  <script src="options.js"></script>
+</body>
+</html>

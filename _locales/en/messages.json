@@ -1,0 +1,77 @@
+{
+  "appName": {
+    "message": "Refresh All Tabs"
+  },
+  "appDescription": {
+    "message": "Refresh browser tabs with a click, hotkey or auto-refresh timer."
+  },
+  "actionTitle": {
+    "message": "Refresh tabs"
+  },
+  "commandDescription": {
+    "message": "Refresh tabs"
+  },
+  "ctxEnableAuto": {
+    "message": "Enable auto-refresh"
+  },
+  "ctxDisableAuto": {
+    "message": "Disable auto-refresh"
+  },
+  "ctxOpenOptions": {
+    "message": "Open settings…"
+  },
+  "optionsTitle": {
+    "message": "Refresh All Tabs - Settings"
+  },
+  "optionsHeader": {
+    "message": "Settings"
+  },
+  "optAutoRefreshLabel": {
+    "message": "Enable auto-refresh"
+  },
+  "optIntervalLabel": {
+    "message": "Auto-refresh interval (minutes):"
+  },
+  "optModeLegend": {
+    "message": "Refresh mode"
+  },
+  "optModeAllTabs": {
+    "message": "Refresh all tabs"
+  },
+  "optModeCurrentWindow": {
+    "message": "Only current window"
+  },
+  "optModeAllExceptCurrent": {
+    "message": "All tabs except current"
+  },
+  "optModeCurrentTab": {
+    "message": "Only current tab"
+  },
+  "optHotkeyNote": {
+    "message": "Default hotkey: Ctrl+Shift+Z (you can change it in chrome://extensions/shortcuts)."
+  },
+  "optSaveButton": {
+    "message": "Save"
+  },
+  "optSavedStatus": {
+    "message": "Saved"
+  },
+  "optStorageError": {
+    "message": "Unable to read or save settings"
+  },
+  "optExcludeLegend": {
+    "message": "Excluded websites"
+  },
+  "optExcludeLabel": {
+    "message": "One domain or website URL per line (or separate with commas):"
+  },
+  "optExcludeHint": {
+    "message": "Exclusions apply to all four refresh modes. Subdomains are also excluded."
+  },
+  "optExcludeInvalid": {
+    "message": "Invalid domain or website URL:"
+  },
+  "optExcludeLimit": {
+    "message": "Too many exclusions (maximum 100 domains, 4096 characters)."
+  }
+}

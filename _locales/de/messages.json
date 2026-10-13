@@ -1,0 +1,77 @@
+{
+  "appName": {
+    "message": "Tabs aktualisieren"
+  },
+  "appDescription": {
+    "message": "Aktualisiert Browser-Tabs per Klick, Tastenkürzel oder automatischem Timer."
+  },
+  "actionTitle": {
+    "message": "Tabs aktualisieren"
+  },
+  "commandDescription": {
+    "message": "Tabs aktualisieren"
+  },
+  "ctxEnableAuto": {
+    "message": "Auto-Aktualisierung aktivieren"
+  },
+  "ctxDisableAuto": {
+    "message": "Auto-Aktualisierung deaktivieren"
+  },
+  "ctxOpenOptions": {
+    "message": "Einstellungen öffnen…"
+  },
+  "optionsTitle": {
+    "message": "Tabs aktualisieren — Einstellungen"
+  },
+  "optionsHeader": {
+    "message": "Einstellungen"
+  },
+  "optAutoRefreshLabel": {
+    "message": "Auto-Aktualisierung aktivieren"
+  },
+  "optIntervalLabel": {
+    "message": "Intervall der Auto-Aktualisierung (Minuten):"
+  },
+  "optModeLegend": {
+    "message": "Aktualisierungsmodus"
+  },
+  "optModeAllTabs": {
+    "message": "Alle Tabs aktualisieren"
+  },
+  "optModeCurrentWindow": {
+    "message": "Nur aktuelles Fenster"
+  },
+  "optModeAllExceptCurrent": {
+    "message": "Alle Tabs außer dem aktuellen"
+  },
+  "optModeCurrentTab": {
+    "message": "Nur aktuellen Tab"
+  },
+  "optHotkeyNote": {
+    "message": "Standard-Hotkey: Ctrl+Shift+Z (anpassbar unter chrome://extensions/shortcuts)."
+  },
+  "optSaveButton": {
+    "message": "Speichern"
+  },
+  "optSavedStatus": {
+    "message": "Gespeichert"
+  },
+  "optStorageError": {
+    "message": "Einstellungen konnten nicht gelesen oder gespeichert werden"
+  },
+  "optExcludeLegend": {
+    "message": "Ausgeschlossene Websites"
+  },
+  "optExcludeLabel": {
+    "message": "Eine Domain oder Website-Adresse pro Zeile (oder durch Kommas getrennt):"
+  },
+  "optExcludeHint": {
+    "message": "Ausnahmen gelten in allen vier Aktualisierungsmodi. Subdomains sind ebenfalls ausgeschlossen."
+  },
+  "optExcludeInvalid": {
+    "message": "Ungültige Domain oder Website-Adresse:"
+  },
+  "optExcludeLimit": {
+    "message": "Zu viele Ausnahmen (maximal 100 Domains, 4096 Zeichen)."
+  }
+}
