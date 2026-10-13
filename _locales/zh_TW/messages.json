@@ -1,0 +1,77 @@
+{
+  "appName": {
+    "message": "重新整理分頁"
+  },
+  "appDescription": {
+    "message": "按一下、使用快捷鍵或自動計時器重新整理瀏覽器分頁。"
+  },
+  "actionTitle": {
+    "message": "重新整理分頁"
+  },
+  "commandDescription": {
+    "message": "重新整理分頁"
+  },
+  "ctxEnableAuto": {
+    "message": "啟用自動重新整理"
+  },
+  "ctxDisableAuto": {
+    "message": "停用自動重新整理"
+  },
+  "ctxOpenOptions": {
+    "message": "開啟設定…"
+  },
+  "optionsTitle": {
+    "message": "重新整理分頁 - 設定"
+  },
+  "optionsHeader": {
+    "message": "設定"
+  },
+  "optAutoRefreshLabel": {
+    "message": "啟用分頁自動重新整理"
+  },
+  "optIntervalLabel": {
+    "message": "自動重新整理間隔（分鐘）："
+  },
+  "optModeLegend": {
+    "message": "重新整理模式"
+  },
+  "optModeAllTabs": {
+    "message": "重新整理所有分頁"
+  },
+  "optModeCurrentWindow": {
+    "message": "僅目前視窗"
+  },
+  "optModeAllExceptCurrent": {
+    "message": "除目前分頁外全部重新整理"
+  },
+  "optModeCurrentTab": {
+    "message": "僅目前分頁"
+  },
+  "optHotkeyNote": {
+    "message": "預設快捷鍵：Ctrl+Shift+Z（可在 chrome://extensions/shortcuts 中變更）。"
+  },
+  "optSaveButton": {
+    "message": "儲存"
+  },
+  "optSavedStatus": {
+    "message": "已儲存"
+  },
+  "optStorageError": {
+    "message": "無法讀取或儲存設定"
+  },
+  "optExcludeLegend": {
+    "message": "排除的網站"
+  },
+  "optExcludeLabel": {
+    "message": "每行輸入一個網域或網站網址（也可用逗號分隔）："
+  },
+  "optExcludeHint": {
+    "message": "排除規則適用於全部四種重新整理模式，子網域也會被排除。"
+  },
+  "optExcludeInvalid": {
+    "message": "無效的網域或網站網址："
+  },
+  "optExcludeLimit": {
+    "message": "排除項目過多（最多 100 個網域、4096 個字元）。"
+  }
+}

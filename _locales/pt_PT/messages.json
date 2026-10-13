@@ -1,0 +1,77 @@
+{
+  "appName": {
+    "message": "Atualizar separadores"
+  },
+  "appDescription": {
+    "message": "Atualiza os separadores do navegador com um clique, atalho de teclado ou temporizador automático."
+  },
+  "actionTitle": {
+    "message": "Atualizar separadores"
+  },
+  "commandDescription": {
+    "message": "Atualizar separadores"
+  },
+  "ctxEnableAuto": {
+    "message": "Ativar atualização automática"
+  },
+  "ctxDisableAuto": {
+    "message": "Desativar atualização automática"
+  },
+  "ctxOpenOptions": {
+    "message": "Abrir definições…"
+  },
+  "optionsTitle": {
+    "message": "Atualizar separadores - definições"
+  },
+  "optionsHeader": {
+    "message": "Definições"
+  },
+  "optAutoRefreshLabel": {
+    "message": "Ativar atualização automática dos separadores"
+  },
+  "optIntervalLabel": {
+    "message": "Intervalo de atualização automática (minutos):"
+  },
+  "optModeLegend": {
+    "message": "Modo de atualização"
+  },
+  "optModeAllTabs": {
+    "message": "Atualizar todos os separadores"
+  },
+  "optModeCurrentWindow": {
+    "message": "Apenas a janela atual"
+  },
+  "optModeAllExceptCurrent": {
+    "message": "Todos os separadores exceto o atual"
+  },
+  "optModeCurrentTab": {
+    "message": "Apenas o separador atual"
+  },
+  "optHotkeyNote": {
+    "message": "Atalho predefinido: Ctrl+Shift+Z (pode ser alterado em chrome://extensions/shortcuts)."
+  },
+  "optSaveButton": {
+    "message": "Guardar"
+  },
+  "optSavedStatus": {
+    "message": "Guardado"
+  },
+  "optStorageError": {
+    "message": "Não foi possível ler ou guardar as definições."
+  },
+  "optExcludeLegend": {
+    "message": "Sites excluídos"
+  },
+  "optExcludeLabel": {
+    "message": "Um domínio ou endereço de site por linha (ou separados por vírgulas):"
+  },
+  "optExcludeHint": {
+    "message": "As exclusões aplicam-se aos quatro modos de atualização. Os subdomínios também são excluídos."
+  },
+  "optExcludeInvalid": {
+    "message": "Domínio ou endereço inválido:"
+  },
+  "optExcludeLimit": {
+    "message": "Demasiadas exclusões (máximo de 100 domínios e 4096 caracteres)."
+  }
+}

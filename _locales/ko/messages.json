@@ -1,0 +1,77 @@
+{
+  "appName": {
+    "message": "탭 새로 고침"
+  },
+  "appDescription": {
+    "message": "클릭, 단축키 또는 자동 새로 고침 타이머로 브라우저 탭을 새로 고칩니다."
+  },
+  "actionTitle": {
+    "message": "탭 새로 고침"
+  },
+  "commandDescription": {
+    "message": "탭 새로 고침"
+  },
+  "ctxEnableAuto": {
+    "message": "자동 새로 고침 켜기"
+  },
+  "ctxDisableAuto": {
+    "message": "자동 새로 고침 끄기"
+  },
+  "ctxOpenOptions": {
+    "message": "설정 열기…"
+  },
+  "optionsTitle": {
+    "message": "탭 새로 고침 — 설정"
+  },
+  "optionsHeader": {
+    "message": "설정"
+  },
+  "optAutoRefreshLabel": {
+    "message": "탭 자동 새로 고침 사용"
+  },
+  "optIntervalLabel": {
+    "message": "자동 새로 고침 간격(분):"
+  },
+  "optModeLegend": {
+    "message": "새로 고침 모드"
+  },
+  "optModeAllTabs": {
+    "message": "모든 탭 새로 고침"
+  },
+  "optModeCurrentWindow": {
+    "message": "현재 창만"
+  },
+  "optModeAllExceptCurrent": {
+    "message": "현재 탭 제외 모든 탭"
+  },
+  "optModeCurrentTab": {
+    "message": "현재 탭만"
+  },
+  "optHotkeyNote": {
+    "message": "기본 단축키: Ctrl+Shift+Z (chrome://extensions/shortcuts 에서 변경 가능)."
+  },
+  "optSaveButton": {
+    "message": "저장"
+  },
+  "optSavedStatus": {
+    "message": "저장됨"
+  },
+  "optStorageError": {
+    "message": "설정을 읽거나 저장하지 못했습니다"
+  },
+  "optExcludeLegend": {
+    "message": "제외할 웹사이트"
+  },
+  "optExcludeLabel": {
+    "message": "한 줄에 도메인 또는 웹사이트 URL 하나씩 입력하세요(쉼표로 구분 가능):"
+  },
+  "optExcludeHint": {
+    "message": "제외 설정은 네 가지 새로고침 모드 모두에 적용됩니다. 하위 도메인도 제외됩니다."
+  },
+  "optExcludeInvalid": {
+    "message": "잘못된 도메인 또는 URL:"
+  },
+  "optExcludeLimit": {
+    "message": "제외 항목이 너무 많습니다(최대 100개 도메인, 4096자)."
+  }
+}

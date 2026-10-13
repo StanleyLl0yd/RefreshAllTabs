@@ -1,0 +1,77 @@
+{
+  "appName": {
+    "message": "Uppdatera flikar"
+  },
+  "appDescription": {
+    "message": "Uppdaterar webbläsarflikar med ett klick, kortkommando eller automatisk timer."
+  },
+  "actionTitle": {
+    "message": "Uppdatera flikar"
+  },
+  "commandDescription": {
+    "message": "Uppdatera flikar"
+  },
+  "ctxEnableAuto": {
+    "message": "Aktivera automatisk uppdatering"
+  },
+  "ctxDisableAuto": {
+    "message": "Inaktivera automatisk uppdatering"
+  },
+  "ctxOpenOptions": {
+    "message": "Öppna inställningar…"
+  },
+  "optionsTitle": {
+    "message": "Uppdatera flikar — inställningar"
+  },
+  "optionsHeader": {
+    "message": "Inställningar"
+  },
+  "optAutoRefreshLabel": {
+    "message": "Aktivera automatisk uppdatering av flikar"
+  },
+  "optIntervalLabel": {
+    "message": "Intervall för automatisk uppdatering (minuter):"
+  },
+  "optModeLegend": {
+    "message": "Uppdateringsläge"
+  },
+  "optModeAllTabs": {
+    "message": "Uppdatera alla flikar"
+  },
+  "optModeCurrentWindow": {
+    "message": "Endast aktuellt fönster"
+  },
+  "optModeAllExceptCurrent": {
+    "message": "Alla flikar utom den aktuella"
+  },
+  "optModeCurrentTab": {
+    "message": "Endast aktuell flik"
+  },
+  "optHotkeyNote": {
+    "message": "Standardkortkommando: Ctrl+Shift+Z (kan ändras i chrome://extensions/shortcuts)."
+  },
+  "optSaveButton": {
+    "message": "Spara"
+  },
+  "optSavedStatus": {
+    "message": "Sparat"
+  },
+  "optStorageError": {
+    "message": "Kunde inte läsa eller spara inställningarna"
+  },
+  "optExcludeLegend": {
+    "message": "Undantagna webbplatser"
+  },
+  "optExcludeLabel": {
+    "message": "En domän eller webbadress per rad (eller separerade med kommatecken):"
+  },
+  "optExcludeHint": {
+    "message": "Undantagen gäller i alla fyra uppdateringslägen. Underdomäner undantas också."
+  },
+  "optExcludeInvalid": {
+    "message": "Ogiltig domän eller webbadress:"
+  },
+  "optExcludeLimit": {
+    "message": "För många undantag (högst 100 domäner och 4096 tecken)."
+  }
+}

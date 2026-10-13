@@ -1,0 +1,77 @@
+{
+  "appName": {
+    "message": "Actualizar pestañas"
+  },
+  "appDescription": {
+    "message": "Actualiza las pestañas del navegador con un clic, atajo de teclado o temporizador automático."
+  },
+  "actionTitle": {
+    "message": "Actualizar pestañas"
+  },
+  "commandDescription": {
+    "message": "Actualizar pestañas"
+  },
+  "ctxEnableAuto": {
+    "message": "Activar auto-actualización"
+  },
+  "ctxDisableAuto": {
+    "message": "Desactivar auto-actualización"
+  },
+  "ctxOpenOptions": {
+    "message": "Abrir configuración…"
+  },
+  "optionsTitle": {
+    "message": "Actualizar pestañas — configuración"
+  },
+  "optionsHeader": {
+    "message": "Configuración"
+  },
+  "optAutoRefreshLabel": {
+    "message": "Activar auto-actualización de pestañas"
+  },
+  "optIntervalLabel": {
+    "message": "Intervalo de auto-actualización (minutos):"
+  },
+  "optModeLegend": {
+    "message": "Modo de actualización"
+  },
+  "optModeAllTabs": {
+    "message": "Actualizar todas las pestañas"
+  },
+  "optModeCurrentWindow": {
+    "message": "Solo la ventana actual"
+  },
+  "optModeAllExceptCurrent": {
+    "message": "Todas menos la pestaña actual"
+  },
+  "optModeCurrentTab": {
+    "message": "Solo la pestaña actual"
+  },
+  "optHotkeyNote": {
+    "message": "Atajo por defecto: Ctrl+Shift+Z (se puede cambiar en chrome://extensions/shortcuts)."
+  },
+  "optSaveButton": {
+    "message": "Guardar"
+  },
+  "optSavedStatus": {
+    "message": "Guardado"
+  },
+  "optStorageError": {
+    "message": "No se pudo leer ni guardar la configuración"
+  },
+  "optExcludeLegend": {
+    "message": "Sitios excluidos"
+  },
+  "optExcludeLabel": {
+    "message": "Un dominio o URL por línea (o separados por comas):"
+  },
+  "optExcludeHint": {
+    "message": "Las exclusiones se aplican a los cuatro modos de actualización. También se excluyen los subdominios."
+  },
+  "optExcludeInvalid": {
+    "message": "Dominio o URL no válido:"
+  },
+  "optExcludeLimit": {
+    "message": "Demasiadas exclusiones (máximo 100 dominios y 4096 caracteres)."
+  }
+}

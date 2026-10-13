@@ -1,0 +1,9 @@
+# Release artifacts and temporary files
+/dist/
+*.zip
+__pycache__/
+.pytest_cache/
+.playwright/
+node_modules/
+.DS_Store
+Thumbs.db

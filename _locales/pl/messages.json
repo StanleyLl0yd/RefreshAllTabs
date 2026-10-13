@@ -1,0 +1,77 @@
+{
+  "appName": {
+    "message": "Odświeżanie kart"
+  },
+  "appDescription": {
+    "message": "Odświeża karty przeglądarki kliknięciem, skrótem klawiaturowym lub automatycznym timerem."
+  },
+  "actionTitle": {
+    "message": "Odśwież karty"
+  },
+  "commandDescription": {
+    "message": "Odśwież karty"
+  },
+  "ctxEnableAuto": {
+    "message": "Włącz auto-odświeżanie"
+  },
+  "ctxDisableAuto": {
+    "message": "Wyłącz auto-odświeżanie"
+  },
+  "ctxOpenOptions": {
+    "message": "Otwórz ustawienia…"
+  },
+  "optionsTitle": {
+    "message": "Odświeżanie kart — ustawienia"
+  },
+  "optionsHeader": {
+    "message": "Ustawienia"
+  },
+  "optAutoRefreshLabel": {
+    "message": "Włącz automatyczne odświeżanie kart"
+  },
+  "optIntervalLabel": {
+    "message": "Interwał auto-odświeżania (minuty):"
+  },
+  "optModeLegend": {
+    "message": "Tryb odświeżania"
+  },
+  "optModeAllTabs": {
+    "message": "Wszystkie karty"
+  },
+  "optModeCurrentWindow": {
+    "message": "Tylko bieżące okno"
+  },
+  "optModeAllExceptCurrent": {
+    "message": "Wszystkie oprócz bieżącej karty"
+  },
+  "optModeCurrentTab": {
+    "message": "Tylko bieżąca karta"
+  },
+  "optHotkeyNote": {
+    "message": "Domyślny skrót: Ctrl+Shift+Z (można zmienić w chrome://extensions/shortcuts)."
+  },
+  "optSaveButton": {
+    "message": "Zapisz"
+  },
+  "optSavedStatus": {
+    "message": "Zapisano"
+  },
+  "optStorageError": {
+    "message": "Nie można odczytać ani zapisać ustawień"
+  },
+  "optExcludeLegend": {
+    "message": "Wykluczone witryny"
+  },
+  "optExcludeLabel": {
+    "message": "Jedna domena lub adres witryny w wierszu (lub oddzielone przecinkami):"
+  },
+  "optExcludeHint": {
+    "message": "Wykluczenia obowiązują we wszystkich czterech trybach odświeżania. Obejmują też poddomeny."
+  },
+  "optExcludeInvalid": {
+    "message": "Nieprawidłowa domena lub adres witryny:"
+  },
+  "optExcludeLimit": {
+    "message": "Zbyt wiele wyjątków (maksymalnie 100 domen i 4096 znaków)."
+  }
+}

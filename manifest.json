@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "default_locale": "en",
+  "name": "__MSG_appName__",
+  "version": "1.9",
+  "description": "__MSG_appDescription__",
+  "permissions": [
+    "tabs",
+    "contextMenus",
+    "alarms",
+    "storage"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "__MSG_actionTitle__"
+  },
+  "commands": {
+    "refresh-all-tabs": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+Z",
+        "mac": "Command+Shift+Z"
+      },
+      "description": "__MSG_commandDescription__"
+    }
+  },
+  "options_page": "options.html"
+}

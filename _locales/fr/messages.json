@@ -1,0 +1,77 @@
+{
+  "appName": {
+    "message": "Actualiser les onglets"
+  },
+  "appDescription": {
+    "message": "Actualise les onglets du navigateur par clic, raccourci clavier ou minuteur automatique."
+  },
+  "actionTitle": {
+    "message": "Actualiser les onglets"
+  },
+  "commandDescription": {
+    "message": "Actualiser les onglets"
+  },
+  "ctxEnableAuto": {
+    "message": "Activer l’actualisation auto"
+  },
+  "ctxDisableAuto": {
+    "message": "Désactiver l’actualisation auto"
+  },
+  "ctxOpenOptions": {
+    "message": "Ouvrir les paramètres…"
+  },
+  "optionsTitle": {
+    "message": "Actualiser les onglets — paramètres"
+  },
+  "optionsHeader": {
+    "message": "Paramètres"
+  },
+  "optAutoRefreshLabel": {
+    "message": "Activer l’actualisation automatique des onglets"
+  },
+  "optIntervalLabel": {
+    "message": "Intervalle d’actualisation automatique (minutes) :"
+  },
+  "optModeLegend": {
+    "message": "Mode d’actualisation"
+  },
+  "optModeAllTabs": {
+    "message": "Tous les onglets"
+  },
+  "optModeCurrentWindow": {
+    "message": "Fenêtre actuelle uniquement"
+  },
+  "optModeAllExceptCurrent": {
+    "message": "Tous les onglets sauf l’actuel"
+  },
+  "optModeCurrentTab": {
+    "message": "Onglet actuel uniquement"
+  },
+  "optHotkeyNote": {
+    "message": "Raccourci par défaut : Ctrl+Shift+Z (modifiable dans chrome://extensions/shortcuts)."
+  },
+  "optSaveButton": {
+    "message": "Enregistrer"
+  },
+  "optSavedStatus": {
+    "message": "Enregistré"
+  },
+  "optStorageError": {
+    "message": "Impossible de lire ou d’enregistrer les paramètres"
+  },
+  "optExcludeLegend": {
+    "message": "Sites exclus"
+  },
+  "optExcludeLabel": {
+    "message": "Un domaine ou une adresse de site par ligne (ou séparés par des virgules) :"
+  },
+  "optExcludeHint": {
+    "message": "Les exclusions s’appliquent aux quatre modes d’actualisation. Les sous-domaines sont également exclus."
+  },
+  "optExcludeInvalid": {
+    "message": "Domaine ou adresse de site invalide :"
+  },
+  "optExcludeLimit": {
+    "message": "Trop d’exclusions (100 domaines et 4 096 caractères maximum)."
+  }
+}

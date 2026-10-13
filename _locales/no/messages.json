@@ -1,0 +1,77 @@
+{
+  "appName": {
+    "message": "Oppdater faner"
+  },
+  "appDescription": {
+    "message": "Oppdaterer nettleserfaner med et klikk, tastatursnarvei eller automatisk tidsur."
+  },
+  "actionTitle": {
+    "message": "Oppdater faner"
+  },
+  "commandDescription": {
+    "message": "Oppdater faner"
+  },
+  "ctxEnableAuto": {
+    "message": "Aktiver automatisk oppdatering"
+  },
+  "ctxDisableAuto": {
+    "message": "Deaktiver automatisk oppdatering"
+  },
+  "ctxOpenOptions": {
+    "message": "Åpne innstillinger…"
+  },
+  "optionsTitle": {
+    "message": "Oppdater faner — innstillinger"
+  },
+  "optionsHeader": {
+    "message": "Innstillinger"
+  },
+  "optAutoRefreshLabel": {
+    "message": "Aktiver automatisk oppdatering av faner"
+  },
+  "optIntervalLabel": {
+    "message": "Intervall for automatisk oppdatering (minutter):"
+  },
+  "optModeLegend": {
+    "message": "Oppdateringsmodus"
+  },
+  "optModeAllTabs": {
+    "message": "Oppdater alle faner"
+  },
+  "optModeCurrentWindow": {
+    "message": "Kun gjeldende vindu"
+  },
+  "optModeAllExceptCurrent": {
+    "message": "Alle faner unntatt den gjeldende"
+  },
+  "optModeCurrentTab": {
+    "message": "Kun gjeldende fane"
+  },
+  "optHotkeyNote": {
+    "message": "Standard hurtigtast: Ctrl+Shift+Z (kan endres i chrome://extensions/shortcuts)."
+  },
+  "optSaveButton": {
+    "message": "Lagre"
+  },
+  "optSavedStatus": {
+    "message": "Lagret"
+  },
+  "optStorageError": {
+    "message": "Kunne ikke lese eller lagre innstillinger"
+  },
+  "optExcludeLegend": {
+    "message": "Unntatte nettsteder"
+  },
+  "optExcludeLabel": {
+    "message": "Ett domene eller én nettadresse per linje (eller atskilt med komma):"
+  },
+  "optExcludeHint": {
+    "message": "Unntak gjelder for alle fire oppdateringsmoduser. Underdomener er også unntatt."
+  },
+  "optExcludeInvalid": {
+    "message": "Ugyldig domene eller nettadresse:"
+  },
+  "optExcludeLimit": {
+    "message": "For mange unntak (maks. 100 domener og 4096 tegn)."
+  }
+}

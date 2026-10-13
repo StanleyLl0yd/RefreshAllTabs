@@ -1,0 +1,77 @@
+{
+  "appName": {
+    "message": "タブ更新"
+  },
+  "appDescription": {
+    "message": "クリック、ショートカットキー、自動更新タイマーでブラウザのタブを更新します。"
+  },
+  "actionTitle": {
+    "message": "タブを更新"
+  },
+  "commandDescription": {
+    "message": "タブを更新"
+  },
+  "ctxEnableAuto": {
+    "message": "自動更新を有効にする"
+  },
+  "ctxDisableAuto": {
+    "message": "自動更新を無効にする"
+  },
+  "ctxOpenOptions": {
+    "message": "設定を開く…"
+  },
+  "optionsTitle": {
+    "message": "タブ更新 — 設定"
+  },
+  "optionsHeader": {
+    "message": "設定"
+  },
+  "optAutoRefreshLabel": {
+    "message": "タブの自動更新を有効にする"
+  },
+  "optIntervalLabel": {
+    "message": "自動更新の間隔（分）:"
+  },
+  "optModeLegend": {
+    "message": "更新モード"
+  },
+  "optModeAllTabs": {
+    "message": "すべてのタブを更新"
+  },
+  "optModeCurrentWindow": {
+    "message": "現在のウィンドウのみ"
+  },
+  "optModeAllExceptCurrent": {
+    "message": "現在のタブ以外をすべて更新"
+  },
+  "optModeCurrentTab": {
+    "message": "現在のタブのみ"
+  },
+  "optHotkeyNote": {
+    "message": "デフォルトのショートカット: Ctrl+Shift+Z（chrome://extensions/shortcuts で変更可能）。"
+  },
+  "optSaveButton": {
+    "message": "保存"
+  },
+  "optSavedStatus": {
+    "message": "保存しました"
+  },
+  "optStorageError": {
+    "message": "設定の読み込みまたは保存に失敗しました"
+  },
+  "optExcludeLegend": {
+    "message": "除外するウェブサイト"
+  },
+  "optExcludeLabel": {
+    "message": "1行に1つのドメインまたはURLを入力（カンマ区切りも可）："
+  },
+  "optExcludeHint": {
+    "message": "除外設定は4つの更新モードすべてに適用されます。サブドメインも除外されます。"
+  },
+  "optExcludeInvalid": {
+    "message": "無効なドメインまたはURL："
+  },
+  "optExcludeLimit": {
+    "message": "除外件数が多すぎます（最大100ドメイン、4096文字）。"
+  }
+}

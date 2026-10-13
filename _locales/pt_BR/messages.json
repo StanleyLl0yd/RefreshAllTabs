@@ -1,0 +1,77 @@
+{
+  "appName": {
+    "message": "Atualizar abas"
+  },
+  "appDescription": {
+    "message": "Atualiza abas do navegador com clique, atalho de teclado ou temporizador automático."
+  },
+  "actionTitle": {
+    "message": "Atualizar abas"
+  },
+  "commandDescription": {
+    "message": "Atualizar abas"
+  },
+  "ctxEnableAuto": {
+    "message": "Ativar atualização automática"
+  },
+  "ctxDisableAuto": {
+    "message": "Desativar atualização automática"
+  },
+  "ctxOpenOptions": {
+    "message": "Abrir configurações…"
+  },
+  "optionsTitle": {
+    "message": "Atualizar abas — configurações"
+  },
+  "optionsHeader": {
+    "message": "Configurações"
+  },
+  "optAutoRefreshLabel": {
+    "message": "Ativar atualização automática das abas"
+  },
+  "optIntervalLabel": {
+    "message": "Intervalo de atualização automática (minutos):"
+  },
+  "optModeLegend": {
+    "message": "Modo de atualização"
+  },
+  "optModeAllTabs": {
+    "message": "Todas as abas"
+  },
+  "optModeCurrentWindow": {
+    "message": "Apenas janela atual"
+  },
+  "optModeAllExceptCurrent": {
+    "message": "Todas exceto a aba atual"
+  },
+  "optModeCurrentTab": {
+    "message": "Apenas aba atual"
+  },
+  "optHotkeyNote": {
+    "message": "Atalho padrão: Ctrl+Shift+Z (pode ser alterado em chrome://extensions/shortcuts)."
+  },
+  "optSaveButton": {
+    "message": "Salvar"
+  },
+  "optSavedStatus": {
+    "message": "Salvo"
+  },
+  "optStorageError": {
+    "message": "Não foi possível ler ou salvar as configurações"
+  },
+  "optExcludeLegend": {
+    "message": "Sites excluídos"
+  },
+  "optExcludeLabel": {
+    "message": "Um domínio ou endereço de site por linha (ou separados por vírgula):"
+  },
+  "optExcludeHint": {
+    "message": "As exclusões valem para os quatro modos de atualização. Subdomínios também são excluídos."
+  },
+  "optExcludeInvalid": {
+    "message": "Domínio ou endereço inválido:"
+  },
+  "optExcludeLimit": {
+    "message": "Exclusões demais (máximo de 100 domínios e 4096 caracteres)."
+  }
+}

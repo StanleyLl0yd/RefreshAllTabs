@@ -1,0 +1,77 @@
+{
+  "appName": {
+    "message": "Tabs vernieuwen"
+  },
+  "appDescription": {
+    "message": "Vernieuwt browsertabs met een klik, sneltoets of automatische timer."
+  },
+  "actionTitle": {
+    "message": "Tabs vernieuwen"
+  },
+  "commandDescription": {
+    "message": "Tabs vernieuwen"
+  },
+  "ctxEnableAuto": {
+    "message": "Automatisch vernieuwen inschakelen"
+  },
+  "ctxDisableAuto": {
+    "message": "Automatisch vernieuwen uitschakelen"
+  },
+  "ctxOpenOptions": {
+    "message": "Instellingen openen…"
+  },
+  "optionsTitle": {
+    "message": "Tabs vernieuwen — instellingen"
+  },
+  "optionsHeader": {
+    "message": "Instellingen"
+  },
+  "optAutoRefreshLabel": {
+    "message": "Automatisch vernieuwen van tabs inschakelen"
+  },
+  "optIntervalLabel": {
+    "message": "Interval automatisch vernieuwen (minuten):"
+  },
+  "optModeLegend": {
+    "message": "Vernieuwmodus"
+  },
+  "optModeAllTabs": {
+    "message": "Alle tabs vernieuwen"
+  },
+  "optModeCurrentWindow": {
+    "message": "Alleen huidig venster"
+  },
+  "optModeAllExceptCurrent": {
+    "message": "Alle tabs behalve huidige"
+  },
+  "optModeCurrentTab": {
+    "message": "Alleen huidige tab"
+  },
+  "optHotkeyNote": {
+    "message": "Standaard sneltoets: Ctrl+Shift+Z (aanpasbaar via chrome://extensions/shortcuts)."
+  },
+  "optSaveButton": {
+    "message": "Opslaan"
+  },
+  "optSavedStatus": {
+    "message": "Opgeslagen"
+  },
+  "optStorageError": {
+    "message": "Kan instellingen niet lezen of opslaan"
+  },
+  "optExcludeLegend": {
+    "message": "Uitgesloten websites"
+  },
+  "optExcludeLabel": {
+    "message": "Eén domein of websiteadres per regel (of gescheiden door komma’s):"
+  },
+  "optExcludeHint": {
+    "message": "Uitsluitingen gelden voor alle vier de vernieuwingsmodi. Subdomeinen worden ook uitgesloten."
+  },
+  "optExcludeInvalid": {
+    "message": "Ongeldig domein of websiteadres:"
+  },
+  "optExcludeLimit": {
+    "message": "Te veel uitzonderingen (maximaal 100 domeinen en 4096 tekens)."
+  }
+}
