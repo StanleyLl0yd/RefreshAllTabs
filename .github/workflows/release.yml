@@ -4,34 +4,94 @@ on:
   push:
     tags:
       - 'v*'
+    branches:
+      - main
+    paths:
+      - '.github/release-request.txt'
 
 permissions:
   contents: write
 
+concurrency:
+  group: refreshalltabs-release
+  cancel-in-progress: false
+
 jobs:
   publish:
+    if: github.repository == 'StanleyLl0yd/RefreshAllTabs'
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
-      - name: Validate version and test
+
+      - name: Validate release request and immutable source
+        id: gate
         env:
-          TAG: ${{ github.ref_name }}
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
         run: |
-          test "$TAG" = "v$(python3 -c 'import json; print(json.load(open("manifest.json"))["version"])')"
+          set -euo pipefail
+          if [[ "$GITHUB_REF_TYPE" == "tag" ]]; then
+            TAG="$GITHUB_REF_NAME"
+          elif [[ "$GITHUB_REF" == "refs/heads/main" ]]; then
+            test -f .github/release-request.txt
+            test "$(wc -l < .github/release-request.txt)" -eq 1
+            grep -Eq '^version=[0-9]+(\.[0-9]+){1,3}$' .github/release-request.txt
+            TAG="v$(cut -d= -f2 .github/release-request.txt)"
+          else
+            echo "Releases can only originate from main or a version tag" >&2
+            exit 1
+          fi
+
+          [[ "$TAG" =~ ^v[0-9]+(\.[0-9]+){1,3}$ ]]
+          VERSION="$(python3 -c 'import json; print(json.load(open("manifest.json"))["version"])')"
+          test "$TAG" = "v$VERSION"
+          printf 'tag=%s\n' "$TAG" >> "$GITHUB_OUTPUT"
+
+          # Do not ever repoint an existing tag to a different commit.
+          if git ls-remote --exit-code --tags origin "refs/tags/$TAG" >/dev/null 2>&1; then
+            git fetch --no-tags --depth=1 origin "refs/tags/$TAG"
+            TAG_SHA="$(git rev-parse 'FETCH_HEAD^{commit}')"
+            if [[ "$TAG_SHA" != "$GITHUB_SHA" ]]; then
+              echo "Refusing to publish $TAG: existing tag points to $TAG_SHA instead of $GITHUB_SHA" >&2
+              exit 1
+            fi
+          fi
+
+      - name: Check JavaScript and run regression tests
+        run: |
+          set -euo pipefail
           node --check background.js
           node --check exclusions.js
           node --check options.js
           node --test tests/*.test.cjs
-      - name: Package extension
-        run: python3 scripts/package.py && unzip -t dist/*.zip
-      - name: Publish GitHub release
+
+      - name: Package and verify extension
+        run: |
+          set -euo pipefail
+          python3 scripts/package.py
+          unzip -t dist/*.zip
+          (cd dist && sha256sum RefreshAllTabs.*.zip > SHA256SUMS.txt)
+
+      - name: Publish release with verified assets
         env:
           GH_TOKEN: ${{ github.token }}
-          TAG: ${{ github.ref_name }}
+          TAG: ${{ steps.gate.outputs.tag }}
+        shell: bash
         run: |
+          set -euo pipefail
+          PACKAGE="dist/RefreshAllTabs.$(python3 -c 'import json; print(json.load(open("manifest.json"))["version"])').zip"
+          test -f "$PACKAGE"
+          NOTES="docs/releases/$TAG.md"
           if gh release view "$TAG" >/dev/null 2>&1; then
-            gh release upload "$TAG" dist/*.zip --clobber
+            gh release upload "$TAG" "$PACKAGE" dist/SHA256SUMS.txt --clobber
+          elif [[ -f "$NOTES" ]]; then
+            gh release create "$TAG" "$PACKAGE" dist/SHA256SUMS.txt \
+              --target "$GITHUB_SHA" --title "Refresh All Tabs $TAG" \
+              --notes-file "$NOTES" --latest
           else
-            gh release create "$TAG" dist/*.zip --verify-tag --generate-notes --title "$TAG"
+            gh release create "$TAG" "$PACKAGE" dist/SHA256SUMS.txt \
+              --target "$GITHUB_SHA" --title "Refresh All Tabs $TAG" \
+              --generate-notes --latest
           fi
+          gh release view "$TAG" --json url,assets --jq '{url:.url,assets:[.assets[].name]}'
